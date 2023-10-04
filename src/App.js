@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Connexion from './connexion';
+import CreationCompte from './creationCompte';
+import Introduction from './introduction';
+import NouveauBachelierInscription from './nouveauBachelierInscription';
+import Preinscription from './preinscription';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Introduction />  
+      <Preinscription />
+      <CreationCompte />
+      <Connexion />
+      <NouveauBachelierInscription />
     </div>
   );
 }
