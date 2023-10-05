@@ -1,7 +1,5 @@
 import React from 'react';
 
-import etape1 from './assets/images/etape1-second.jpg';
-import etape2 from './assets/images/etape2-second.jpg';
 import etape3 from './assets/images/etape3-second.jpg';
 import etape4 from './assets/images/etape4-second.jpg';
 import etape5 from './assets/images/etape5-second.jpg';
