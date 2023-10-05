@@ -1,4 +1,5 @@
 import React from 'react';
+import etape4 from './assets/images/etape4.jpg'
 
 const Connexion = () => {
   return (
@@ -16,7 +17,7 @@ const Connexion = () => {
           <div className="col-lg-6">
             {/* Vous pouvez ajouter ici une image illustrant la connexion */}
             <img
-              src="chemin_de_votre_image.jpg"
+              src={etape4}
               alt="Connexion"
               className="img-fluid"
             />
