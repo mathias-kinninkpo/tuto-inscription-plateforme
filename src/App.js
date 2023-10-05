@@ -4,6 +4,7 @@ import CreationCompte from './creationCompte';
 import Introduction from './introduction';
 import NouveauBachelierInscription from './nouveauBachelierInscription';
 import Preinscription from './preinscription';
+import EspaceEtudiantModule from './espaceEtudiant';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <CreationCompte />
       <Connexion />
       <NouveauBachelierInscription />
+      <EspaceEtudiantModule />
     </div>
   );
 }

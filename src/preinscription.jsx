@@ -1,9 +1,9 @@
 import React from 'react';
-import preinscriptionImage from './assets/images/accueil_preinscription.png'
+import creationCompteImage from './assets/images/creation-compte.png'
 
 const Preinscription = () => {
   return (
-    <section className="bg-light py-5">
+    <section className="bg-light py-5">g
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6 text-justify">
@@ -18,7 +18,7 @@ const Preinscription = () => {
           <div className="col-lg-6">
             {/* Vous pouvez ajouter ici une image illustrant le module de préinscription */}
             <img
-              src= {preinscriptionImage}
+              src= {creationCompteImage}
               alt="Module de Préinscription"
               className="img-fluid"
             />
