@@ -1,4 +1,5 @@
 import React from 'react';
+import creationCompteImage from './assets/images/creation-compte.png'
 
 const CreationCompte = () => {
   return (
@@ -18,7 +19,7 @@ const CreationCompte = () => {
           <div className="col-lg-6">
             {/* Vous pouvez ajouter ici une image illustrant la création de compte */}
             <img
-              src="chemin_de_votre_image.jpg"
+              src={creationCompteImage}
               alt="Création de Compte"
               className="img-fluid"
             />
