@@ -1,14 +1,14 @@
 import React from 'react';
-import creationCompteImage from './assets/images/creation-compte.png'
+import creationCompteImage from './assets/images/creation-compte.png';
 
 const CreationCompte = () => {
   return (
     <section className="py-5">
       <div className="container">
-        <div className="row">
-          <div className="col-lg-6">
-            <h2>Étape 1 : Création de Compte</h2>
-            <p className="lead">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div className="lg:col-span-1">
+            <h2 className="text-3xl font-extrabold">Étape 1 : Création de Compte</h2>
+            <p className="text-lg">
               Sur la page d’inscription, veuillez fournir avec précision toutes les informations requises pour votre première inscription à l'Université d'Abomey-Calavi (UAC).
               Ces informations sont essentielles pour garantir l'exactitude de votre dossier.
               Une fois que vous avez rempli le formulaire d'inscription, vous recevrez un e-mail de confirmation à l'adresse que vous avez fournie.
@@ -16,12 +16,12 @@ const CreationCompte = () => {
               Cette étape de confirmation est cruciale pour assurer la sécurité de votre compte et pour vous permettre de poursuivre le processus d’inscription en toute confiance.
             </p>
           </div>
-          <div className="col-lg-6">
+          <div className="lg:col-span-1">
             {/* Vous pouvez ajouter ici une image illustrant la création de compte */}
             <img
               src={creationCompteImage}
               alt="Création de Compte"
-              className="img-fluid"
+              className="w-full h-auto"
             />
           </div>
         </div>
